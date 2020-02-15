@@ -28,7 +28,7 @@ lines follow. For each i (1≤i≤M), the i-th of these lines contains two space
 
 Output
 
-For each test case, print a single line containing one integer — the maximum number of Hasan's friends who can get the candies they want.
+    For each test case, print a single line containing one integer — the maximum number of Hasan's friends who can get the candies they want.
 Constraints
 
     1≤T≤103

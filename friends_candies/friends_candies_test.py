@@ -7,23 +7,23 @@ for k in range(18):
         os.remove(testname)
     f=open(testname,'+a')
     numbers=[]
-    testcase=randint(1,10000)
+    testcase=randint(1,100)
     # testcase=1
     f.write(str(testcase))
     f.write('\n')
     
     for i in range(testcase):
-        N=randint(1,100000)
-        M=randint(1,100000)
+        N=randint(1,100)
+        M=randint(1,100)
         f.write(str(N))
-        f.write('\n')
+        f.write(' ')
         f.write(str(M))
         f.write('\n')
         seed(i+100+13)
         a=[]
         for j in range(N):
             seed(i+100+13+j)
-            a.append(str(randint(1,10000)))
+            a.append(str(randint(1,100)))
         f.write(' '.join(a))
         f.write('\n')
         sum=randint(0,N)
